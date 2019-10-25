@@ -1,0 +1,33 @@
+$blue: #1199DD !default;
+$white: #FFFFFF !default;
+
+$light: #F7FAFA !default;
+$dark: #C2D6D7 !default;
+$primary: #00B098 !default;
+$secondary: #222222 !default;
+$important: #2D595E !default;
+$text-muted: #A5B7B8 !important;
+
+$theme-colors: () !default;
+$theme-colors: map-merge(
+  (
+    'important': $important,
+  ),
+  $theme-colors
+);
+
+$font-size-base: .875rem !default;
+$font-family-sans-serif: 'Source Sans Pro', sans-serif !default;
+$font-weight-bold: 700 !default;
+$headings-font-family: $font-family-sans-serif;
+
+$btn-font-weight: $font-weight-bold !default;
+$btn-padding-x: 1.5rem !default;
+$btn-padding-x-sm: 1.375rem !default;
+$btn-padding-x-lg: 1.75rem !default;
+
+$input-padding-y: .680rem !default;
+$input-padding-y-sm: 1.375rem !default;
+$input-padding-y-lg: 1.75rem !default;
+
+$input-border-color: 0 !default;

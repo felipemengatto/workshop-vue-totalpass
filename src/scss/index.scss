@@ -1,0 +1,54 @@
+@import './fonts';
+@import './variables';
+
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+
+@import './layout';
+@import './animation';
+@import './inputs';
+
+* {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+input,
+textarea {
+    -webkit-user-select: auto !important;
+    -khtml-user-select: auto !important;
+    -moz-user-select: auto !important;
+    -ms-user-select: auto !important;
+    user-select: auto !important;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.is-invalid {
+    border-color: $danger;
+}
+
+.image-fit-cover {
+    object-fit: cover;
+}
+
+.no-required,
+.no-required::placeholder {
+    color: $dark !important;
+    border-color: $dark !important;
+}
