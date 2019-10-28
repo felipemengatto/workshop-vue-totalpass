@@ -3,11 +3,6 @@ export default {
         name: '',
         phone: '',
         address: {
-            city: '',
-            complement: '',
-            neighborhood: '',
-            number: '',
-            state: '',
             street: '',
             zipCode: ''
         },

@@ -1,7 +1,7 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
 
-import { Home } from '@pages';
+import { Home, UserRegistration } from '@pages';
 
 Vue.use(VueRouter);
 
@@ -10,6 +10,11 @@ const routes = [
         component: Home,
         name: 'home',
         path: '/'
+    },
+    {
+        component: UserRegistration,
+        name: 'user-registration',
+        path: '/user-registration'
     },
     {
         path: '*',

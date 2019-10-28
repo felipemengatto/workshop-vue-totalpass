@@ -5,7 +5,9 @@
         novalidate
     >
         <div class="card-body p-0">
-            <h4 class="text-center text-dark mb-3" v-if="title">
+            <h4 class="text-center text-dark mb-3"
+                v-if="title"
+            >
                 {{ title }}
             </h4>
             <slot></slot>

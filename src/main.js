@@ -1,7 +1,10 @@
 import VeeValidate from 'vee-validate';
 import Vue from 'vue';
 import VueTheMask from 'vue-the-mask';
+import Wizard from 'vue-easy-wizard';
+import 'vue-easy-wizard/dist/VueEasyWizard.css';
 
+Vue.use(Wizard);
 Vue.use(VeeValidate);
 Vue.use(VueTheMask);
 
