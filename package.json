@@ -9,7 +9,7 @@
     "test": "./node_modules/.bin/jest"
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "bootstrap": "^4.3.1",
     "vee-validate": "^2.2.13",
     "vue": "^2.6.10",
